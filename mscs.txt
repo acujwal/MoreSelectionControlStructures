@@ -97,8 +97,13 @@ else if number_of_hour <= 35
     weekly_pay = total_hour_worked * pay_rate
 	
 else if number_of_hour > 35
-		overtime = number_of_hour - 35
-		
-		
+		over_time = number_of_hour - 35
+		weekly_pay =  (pay_rate * 35) + (over_time * pay_rate * 1.5)
+
+Print 
+employee_name_number
+pay_rate
+total_hour_worked
+weekly_pay		
 
 
